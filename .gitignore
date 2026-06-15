@@ -1,24 +1,23 @@
 # Python
 __pycache__/
-*.py[cod]
-*.so
-.Python
-
-# Virtual Environment
+*.pyc
+*.pyo
 venv/
 env/
-ENV/
 
-# Output files
+# Secrets
+.env
+config.json
+*.key
+
+# Output
 output/
 *.json
-*.txt
+*.csv
+*.log
 
 # IDE
 .vscode/
 .idea/
-*.swp
-
-# OS
 .DS_Store
 Thumbs.db
